@@ -7,14 +7,7 @@ let PORT = 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // =========mock data base
-var resesrved_tables = [
-    {
-        table_number: 1,
-        name: "Brad",
-        email: "email@email.com",
-        phone: "123-456-7890",
-    }
-]
+var resesrved_tables = []
 var wait_list = []
 // ==========routes
 // home
